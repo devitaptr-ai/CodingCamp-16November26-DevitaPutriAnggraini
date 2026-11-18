@@ -1,0 +1,137 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create directory structure, index.html, and file stubs": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930903553
+      },
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930913890
+      },
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794931005948
+      }
+    ],
+    "2.1 Implement css/style.css layout, spacing, typography, and contrast": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930903896
+      },
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794931010552
+      }
+    ],
+    "3.1 Implement Storage module in js/app.js": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930904083
+      },
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794931010773
+      }
+    ],
+    "4.1 Implement Greeting Widget time, date, and greeting logic with a 1-second tick": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930904317
+      }
+    ],
+    "5.1 Implement Focus_Timer countdown, state machine, and controls": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930904442
+      }
+    ],
+    "6.1 Implement Task_List add, edit, toggle, delete, persistence, and rendering": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930904549
+      }
+    ],
+    "7.1 Implement Quick_Links_Widget render, open, add, remove, and persistence": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930904671
+      }
+    ],
+    "8.1 Implement the App Controller and DOMContentLoaded initialization": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930904878
+      }
+    ],
+    "9.1 Create manifest.json at the repository root": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930904995
+      }
+    ],
+    "10. Checkpoint — Verify all widgets and persistence": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930905120
+      }
+    ],
+    "11. Final checkpoint — Verify deployment readiness": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930905306
+      }
+    ],
+    "12.1 Implement the Theme module, theme toggle markup, and theme CSS variables": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930905411
+      }
+    ],
+    "13.1 Extend the Greeting Widget with a custom name input, save, and composition": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930905499
+      }
+    ],
+    "14.1 Extend the Focus_Timer with a custom duration setting, clamping, and reset-to-effective": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930905574
+      }
+    ],
+    "15. Final checkpoint — Verify the light/dark mode, custom name, and custom duration features": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794930905701
+      }
+    ],
+    "1. Set up project structure and HTML entry point": [
+      {
+        "executionId": "6233922d-274b-4c55-9762-b2b02c682425",
+        "chatSessionId": "sess_99285534-9bb2-4b0a-95c3-32c776ed9837",
+        "timestamp": 1794931006102
+      }
+    ]
+  }
+}

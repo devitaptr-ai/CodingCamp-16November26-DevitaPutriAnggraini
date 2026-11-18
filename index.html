@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1 class="app-title">Personal Dashboard</h1>
+    <button type="button" id="theme-toggle" class="btn" aria-pressed="false">
+      Switch to dark theme
+    </button>
+  </header>
+
+  <main class="dashboard">
+
+    <!-- Greeting widget: time, date, greeting, custom name -->
+    <section id="greeting-widget" class="widget" aria-labelledby="greeting-title">
+      <h2 id="greeting-title" class="visually-hidden">Greeting</h2>
+      <p id="current-time" class="greeting-time" aria-live="off">00:00</p>
+      <p id="current-date" class="greeting-date"></p>
+      <p id="greeting-text" class="greeting-text">Hello!</p>
+
+      <form id="name-form" class="inline-form" autocomplete="off">
+        <label for="name-input" class="form-label">Your name</label>
+        <input type="text" id="name-input" name="name" maxlength="40" placeholder="Enter your name">
+        <button type="submit" class="btn">Save name</button>
+      </form>
+    </section>
+
+    <!-- Focus timer widget -->
+    <section id="timer-widget" class="widget" aria-labelledby="timer-title">
+      <h2 id="timer-title" class="widget-title">Focus timer</h2>
+      <p id="timer-display" class="timer-display" role="timer" aria-live="off">25:00</p>
+      <p id="timer-status" class="timer-status" aria-live="polite"></p>
+
+      <div class="button-row">
+        <button type="button" id="timer-start" class="btn">Start</button>
+        <button type="button" id="timer-stop" class="btn">Stop</button>
+        <button type="button" id="timer-reset" class="btn">Reset</button>
+      </div>
+
+      <form id="duration-form" class="inline-form" autocomplete="off">
+        <label for="duration-input" class="form-label">Duration (minutes)</label>
+        <input type="number" id="duration-input" name="duration" min="1" max="180" value="25" inputmode="numeric">
+        <button type="submit" class="btn">Set duration</button>
+      </form>
+      <p id="duration-error" class="form-error" role="alert" hidden></p>
+    </section>
+
+    <!-- To-do list widget -->
+    <section id="todo-widget" class="widget" aria-labelledby="todo-title">
+      <h2 id="todo-title" class="widget-title">To-do list</h2>
+
+      <form id="todo-form" class="inline-form" autocomplete="off">
+        <label for="todo-input" class="visually-hidden">New task</label>
+        <input type="text" id="todo-input" name="task" maxlength="120" placeholder="Add a task" required>
+        <button type="submit" class="btn">Add task</button>
+      </form>
+      <p id="todo-error" class="form-error" role="alert" hidden></p>
+
+      <div class="sort-row">
+        <label for="todo-sort" class="form-label">Sort by</label>
+        <select id="todo-sort">
+          <option value="added">Order added</option>
+          <option value="newest">Newest first</option>
+          <option value="az">A to Z</option>
+          <option value="za">Z to A</option>
+          <option value="pending">Not done first</option>
+        </select>
+      </div>
+
+      <ul id="todo-list" class="todo-list"></ul>
+      <p id="todo-empty" class="empty-state">No tasks yet. Add one above.</p>
+    </section>
+
+    <!-- Quick links widget -->
+    <section id="links-widget" class="widget" aria-labelledby="links-title">
+      <h2 id="links-title" class="widget-title">Quick links</h2>
+
+      <form id="link-form" class="inline-form" autocomplete="off">
+        <label for="link-label" class="visually-hidden">Link name</label>
+        <input type="text" id="link-label" name="label" maxlength="40" placeholder="Name" required>
+        <label for="link-url" class="visually-hidden">Link URL</label>
+        <input type="url" id="link-url" name="url" placeholder="https://example.com" required>
+        <button type="submit" class="btn">Add link</button>
+      </form>
+      <p id="link-error" class="form-error" role="alert" hidden></p>
+
+      <ul id="link-list" class="link-list"></ul>
+      <p id="link-empty" class="empty-state">No links yet. Add your favorite sites above.</p>
+    </section>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
